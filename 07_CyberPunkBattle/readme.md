@@ -56,7 +56,8 @@ javac -d . cyberpunkbattle/**/*.java
 java cyberpunkbattle.Main
 ```
 O en Powershell se ejecuta
+```shell
 javac -d . (Get-ChildItem -Recurse -Filter *.java).FullName
 java cyberpunkbattle.Main
-
+```
 Siempre dentro de la carpeta raiz del proyecto
